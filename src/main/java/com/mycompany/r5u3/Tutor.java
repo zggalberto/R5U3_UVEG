@@ -8,7 +8,7 @@ package com.mycompany.r5u3;
  *
  * @author CALIDAD
  */
-public class Tutor extends Persona implements Calificaciones{
+public class Tutor extends Persona implements ICalificaciones{
     Alumno alumno;
     Tutor(int id, String nombre, String apellido, String correo, Alumno alumno){
     super(id, nombre, apellido, correo);

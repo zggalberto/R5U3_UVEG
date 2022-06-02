@@ -8,6 +8,6 @@ package com.mycompany.r5u3;
  *
  * @author CALIDAD
  */
-    interface Calificaciones {
+    interface ICalificaciones {
     public void mostrarCalificaciones();
 }

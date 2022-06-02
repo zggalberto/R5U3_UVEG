@@ -8,7 +8,7 @@ package com.mycompany.r5u3;
  *
  * @author CALIDAD
  */
-public class Alumno extends Persona implements Calificaciones{
+public class Alumno extends Persona implements ICalificaciones{
     private double calificacion;
     Alumno(int id, String nombre, String apellido, String correo){
     super(id, nombre, apellido, correo);
